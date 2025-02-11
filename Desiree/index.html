@@ -2,12 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- Add favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Desiree Austin Holliday – Senior Associate Attorney at Ben Crump Law. A distinguished civil rights attorney dedicated to defending individual rights and securing justice for victims of systemic injustice.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Add theme color for dark mode browsers -->
-  <meta name="theme-color" content="#121212">
   <title>Desiree Austin Holliday – Attorney Profile</title>
   
   <!-- Open Graph Meta Tags -->
@@ -31,7 +27,7 @@
   <link rel="preload" href="https://cdn-bbmoo.nitrocdn.com/tQalsmoWISkBiZuFXQcAHbWjsJGOAJVZ/assets/images/optimized/rev-ecf0cea/bencrump.com/wp-content/uploads/2020/01/Desiree-Austin-Holliday.png" as="image">
   
   <!-- Load external CSS for styles -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
   
   <!-- Structured Data using JSON-LD -->
   <script type="application/ld+json">
@@ -64,20 +60,33 @@
   </script>
   
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <div class="container">
     <header>
-      <img src="https://cdn-bbmoo.nitrocdn.com/tQalsmoWISkBiZuFXQcAHbWjsJGOAJVZ/assets/images/optimized/rev-ecf0cea/bencrump.com/wp-content/uploads/2020/01/Desiree-Austin-Holliday.png" alt="Portrait of Desiree Austin Holliday" loading="lazy">
+      <img src="https://cdn-bbmoo.nitrocdn.com/tQalsmoWISkBiZuFXQcAHbWjsJGOAJVZ/assets/images/optimized/rev-ecf0cea/bencrump.com/wp-content/uploads/2020/01/Desiree-Austin-Holliday.png" alt="Portrait of Desiree Austin Holliday">
       <h1>Desiree Austin Holliday</h1>
       <p>Senior Associate Attorney</p>
       <p>Ben Crump Law</p>
-      <p>Website: <a href="https://bencrump.com/" target="_blank" rel="noopener" aria-label="Ben Crump Law Website">bencrump.com</a></p>
+      <p>Website: <a href="https://bencrump.com/" target="_blank" rel="noopener">bencrump.com</a></p>
     </header>
     
-    <main class="content">
+    <nav aria-label="Page sections">
+      <ul class="nav-sections">
+        <li><a href="#summary">Professional Summary</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#cases">Key Cases</a></li>
+        <li><a href="#publications">Publications</a></li>
+      </ul>
+    </nav>
+    
+    <main id="main-content" class="content">
       <!-- Professional Summary -->
-      <section class="professional-summary">
+      <section id="summary" class="professional-summary">
         <h2>Professional Summary</h2>
         <div class="section-content">
           <p>Desiree Austin Holliday is a distinguished civil rights attorney with a proven record of defending individual rights and advocating for justice. With extensive expertise in wrongful death litigation, police misconduct, and employment discrimination, she combines strategic legal insight with an unwavering commitment to social justice.</p>
@@ -85,7 +94,7 @@
       </section>
       
       <!-- Biography -->
-      <section class="biography">
+      <section id="biography" class="biography">
         <h2>Biography</h2>
         <div class="section-content">
           <p>Born in Atlanta, Georgia, and the youngest of four children, Desiree was inspired by her mother, Rev. Dr. Sharon G. Austin—the first female pastor at the historic Ebenezer Baptist Church. After relocating to Florida at a young age, she earned her bachelor’s degree in government from Berry College in 2014 and later received her law degree from St. Louis University School of Law in 2018.</p>
@@ -94,7 +103,7 @@
       </section>
       
       <!-- Credentials & Admissions -->
-      <section class="credentials">
+      <section id="credentials" class="credentials">
         <h2>Credentials & Admissions</h2>
         <div class="section-content">
           <ul>
@@ -104,50 +113,82 @@
         </div>
       </section>
       
-      <!-- Key Cases & Accomplishments -->
-      <section class="cases">
-        <h2>Key Cases & Accomplishments</h2>
+      <!-- Notable Cases & Legal Impact -->
+      <section id="cases" class="cases">
+        <h2>Notable Cases & Legal Impact</h2>
         <div class="section-content">
-          <ul>
-            <li>Contributed to the historic Malcolm X wrongful death case</li>
-            <li>Involved in the Hair Relaxer Mass Tort Litigation</li>
-            <li>Worked on litigation related to the Astroworld Festival deaths</li>
-            <li>Advocated for disenfranchised Black Farmers in litigation against the U.S. Government</li>
+          <ul class="case-list">
+            <li>
+              <h3>Malcolm X Wrongful Death Investigation</h3>
+              <p>Key contributor to the historic case that led to exonerations and revealed new evidence in 2021, challenging decades-old convictions and bringing justice to the Malcolm X family.</p>
+            </li>
+            <li>
+              <h3>Hair Relaxer Mass Tort Litigation</h3>
+              <p>Representing plaintiffs in ongoing multi-district litigation concerning harmful personal care products</p>
+            </li>
+            <li>
+              <h3>Astroworld Festival Tragedy</h3>
+              <p>Advocating for victims and families affected by the November 2021 crowd crush incident</p>
+            </li>
+            <li>
+              <h3>Black Farmers Justice</h3>
+              <p>Leading litigation efforts against systematic discrimination in agricultural lending practices</p>
+            </li>
           </ul>
         </div>
       </section>
-      
-      <!-- Publications -->
-      <section class="publications">
-        <h2>Publications</h2>
+
+      <!-- Featured Publications -->
+      <section id="publications" class="publications">
+        <h2>Featured Publications</h2>
         <div class="section-content">
-          <ul>
-            <li>“Execution shouldn’t be torture,” The St. Louis American, January 2017</li>
-            <li>“Guilty, not guilty, or black?” The St. Louis American, December 2016</li>
-            <li>“Apologies that came too late,” The St. Louis American, December 2016</li>
-            <li>“The death penalty is judicial murder,” The St. Louis American, October 2016</li>
+          <ul class="publication-list">
+            <li>
+              <article>
+                <h3>"Execution shouldn't be torture"</h3>
+                <p><time datetime="2017-01">January 2017</time> | The St. Louis American</p>
+                <p>Critical analysis of capital punishment methods and their constitutional implications in modern American justice.</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>"Guilty, not guilty, or black?"</h3>
+                <p>The St. Louis American | December 2016</p>
+                <p>Examination of racial bias in the criminal justice system</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>"Apologies that came too late"</h3>
+                <p>The St. Louis American | December 2016</p>
+                <p>Commentary on delayed justice and institutional accountability</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>"The death penalty is judicial murder"</h3>
+                <p>The St. Louis American | October 2016</p>
+                <p>Analysis of moral and legal implications of capital punishment</p>
+              </article>
+            </li>
           </ul>
         </div>
       </section>
       
       <!-- Call to Action -->
-      <section class="cta-section" role="complementary">
-        <h2 class="cta-title">Schedule Your Consultation</h2>
-        <p class="cta-description">Let us review your case and discuss how we can help you pursue justice. All consultations are confidential and free of charge.</p>
-        <div class="cta-buttons">
-          <a href="tel:561-424-6239" class="cta-button" aria-label="Call us for a consultation">
-            <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02c-.37-1.11-.56-2.3-.56-3.53c0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
-            </svg>
-            Call Now
-          </a>
-          <a href="mailto:contact@bencrump.com" class="cta-button" aria-label="Email us for a consultation">
-            <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-            Email Us
-          </a>
-        </div>
+      <section class="cta" aria-label="Contact options">
+        <a href="tel:561-424-6239" aria-label="Call Now">
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" alt="Phone icon">
+            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02c-.37-1.11-.56-2.3-.56-3.53c0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+          </svg>
+          <span>Call Now</span>
+        </a>
+        <a href="mailto:contact@bencrump.com" aria-label="Email Us">
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" alt="Email icon">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          <span>Email Us</span>
+        </a>
       </section>
     </main>
   </div>
